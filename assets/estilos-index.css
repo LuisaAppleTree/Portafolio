@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100&family=Jost:wght@200&family=Montserrat:wght@300;400&family=Nokora:wght@100&family=Nova+Square&display=swap');
 
 /* font-family: 'Gayathri', sans-serif;
-font-family: 'Jost', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Nokora', sans-serif;
 font-family: 'Nova Square', cursive; */
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 
  /* inicia barra de navegación  */
@@ -14,18 +15,20 @@ font-family: 'Nova Square', cursive; */
     padding: 2rem;
     background-color: rgb(255, 255, 255);
     height: 10rem;
+    max-width: 100vw;
 }
 
 .navbar:hover {
     height:15rem;
+    max-width: 100vw;
 }
 
 .logo-navbar {
-    width:10rem;
+    width:12rem;
 }
 
 .logo-navbar:hover {
-    width: 15rem;
+    width: 17rem;
 }
 
 .navbar-collapse {
@@ -112,10 +115,6 @@ font-family: 'Nova Square', cursive; */
     padding:1rem;
     border:0px;
 }
-
-
-
-
  /* termina barra de navegacion */
 
  /* inicia hero */
@@ -125,25 +124,27 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 100vw;
 }
 
 .hero {
     background-color:rgb(255, 255, 255);
     min-height: 450px;
     text-align: center;
+    max-width: 100vw;
  }
 
 .hero-principal {
     padding:3rem;
+    max-width: 100vw;
 }
 
 .foto {
-    width: 400px;
-    height:400px;
+    width: 25rem;
+    height:25rem;
     border-radius: 30%;
     margin: 4rem;
     box-shadow: 0 0px 50px 0 rgb(114, 102, 104), 0 0px 50px 0 rgb(58, 57, 57);
-
 }
 
 .main-text {
@@ -161,6 +162,105 @@ section {
     font-family: 'Gayathri', sans-serif ;
     font-size:2rem;
 }
+
+#hero-1 {
+    height:120vh;
+    background-color:rgb(201, 150, 255);
+    max-width: 100vw;
+}
+
+#hero-2 {
+    height:200vh;
+    background-color:rgb(207, 60, 60);
+    max-width: 100vw;
+}
+
+#hero-3 {
+    height:260vh;
+    background-color: rgb(255, 222, 36);
+    max-width: 100vw;
+}
+
+#hero-4 {
+    height:120vh;
+    background-color:rgb(83, 44, 255);
+    max-width: 100vw;
+}
+
+.foto-hero-1 {
+    width: 25rem;
+    height:25rem;
+    border-radius: 30%;
+    margin: 2rem;
+    box-shadow: 0 0px 50px 0 rgb(114, 102, 104), 0 0px 50px 0 rgb(58, 57, 57);
+}
+
+.carrusel {
+    box-shadow:  0 0px 50px 0 rgb(255, 255, 255), 0 0px 50px 0 rgb(255, 255, 255);
+    max-width: 100vw;
+}
+
+.text-hero-2 {
+    margin-top:5rem;
+    margin-bottom:5rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(119, 0, 202), 0 0 5px rgb(201, 150, 255);
+    font-family: 'Gayathri', sans-serif ;
+    font-size:2rem;
+}
+
+.boton-enlace {
+    margin-top:-3rem;
+}
+
+.foto-hero-3-soft {
+    width: 25rem;
+    height:25rem;
+    border-radius: 30%;
+    box-shadow: 0 0px 50px 0 rgb(248, 255, 151), 0 0px 50px 0 rgb(253, 253, 253);
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+.main-text-hero-3 {
+    margin-top:5rem;
+    margin-bottom:5rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(119, 0, 202), 0 0 5px rgb(201, 150, 255);
+    font-family: 'Gayathri', sans-serif ;
+    font-size:5rem;
+}
+
+.texto-hero-3 {
+    font-family:'Nova Square', cursive;
+    color:black;
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.contactame-box {
+    width: 50rem;
+    height:25rem;
+    border-radius: 10%;
+    box-shadow: 0 0px 50px 0 rgb(214, 239, 255), 0 0px 50px 0 rgb(253, 253, 253);
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+.texto-contacto {
+    color:black;
+    font-family: 'Nova Square', cursive;
+    font-weight: 400;
+    margin: 5rem;
+}
+
+.icons {
+    color:black;
+    font-family: 'Nova Square', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
  /* termina hero */
 
 
