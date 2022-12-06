@@ -409,8 +409,8 @@ section {
 }
 
 .foto-hero-3-soft {
-    max-width: 600px;
-    max-height:600px;
+    max-width: 60vw;
+    max-height: 60vh;
     border-radius: 30%;
     box-shadow: 0 0px 50px 0 rgb(248, 255, 151), 0 0px 50px 0 rgb(253, 253, 253);
     margin-top: 0rem;
