@@ -150,17 +150,9 @@ section {
 .main-text {
     margin:1rem;
     color: rgb(0, 0, 0);
-    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(119, 0, 202), 0 0 5px rgb(201, 150, 255);
-    font-family: 'Gayathri', sans-serif ;
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(172, 172, 172), 0 0 5px rgb(75, 75, 75);
+    font-family: 'Nova Square', cursive;
     font-size:2.5rem;
-}
-
-.main-text-h2 {
-    margin:1rem;
-    color: rgb(0, 0, 0);
-    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(119, 0, 202), 0 0 5px rgb(201, 150, 255);
-    font-family: 'Gayathri', sans-serif ;
-    font-size:2rem;
 }
 
 .letras-welcome {
@@ -334,7 +326,7 @@ section {
 
 
 #hero-1 {
-    background-color:rgb(201, 150, 255);
+    background-color:rgb(0, 0, 0);
     min-height: 450px;
     text-align: center;
     padding-top: 5rem;
@@ -342,7 +334,7 @@ section {
 }
 
 #hero-2 {
-    background-color:rgb(207, 60, 60);
+    background-color:rgb(182, 0, 0);
     min-height: 450px;
     text-align: center;
     padding-top: 5rem;
@@ -350,7 +342,7 @@ section {
 }
 
 #hero-3 {
-    background-color: rgb(255, 222, 36);
+    background-color: rgb(255, 174, 0);
     min-height: 450px;
     text-align: center;
     padding-top: 5rem;
@@ -358,7 +350,7 @@ section {
 }
 
 #hero-4 {
-    background-color:rgb(83, 44, 255);
+    background-color:rgb(24, 0, 131);
     min-height: 450px;
     text-align: center;
     padding-top: 5rem;
@@ -382,18 +374,19 @@ section {
     margin-top:5rem;
     margin-bottom:5rem;
     color: rgb(0, 0, 0);
-    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(119, 0, 202), 0 0 5px rgb(201, 150, 255);
-    font-family: 'Gayathri', sans-serif ;
-    font-size:2rem;
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(172, 172, 172), 0 0 5px rgb(75, 75, 75);
+    font-family: 'Nova Square', cursive;
+    font-size:2.5rem;
 }
 
 .text-hero-2-titulo{
     margin-top:5rem;
     margin-bottom:5rem;
     color: rgb(0, 0, 0);
-    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(119, 0, 202), 0 0 5px rgb(201, 150, 255);
-    font-family: 'Gayathri', sans-serif ;
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(172, 172, 172), 0 0 5px rgb(75, 75, 75);
+    font-family:'Nova Square', cursive;
     font-size:4rem;
+    font-weight: 400;
 }
 
 .boton-enlace {
@@ -421,9 +414,10 @@ section {
     margin-top:5rem;
     margin-bottom:5rem;
     color: rgb(0, 0, 0);
-    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(119, 0, 202), 0 0 5px rgb(201, 150, 255);
-    font-family: 'Gayathri', sans-serif ;
-    font-size:5rem;
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(172, 172, 172), 0 0 5px rgb(75, 75, 75);
+    font-family:'Nova Square', cursive;
+    font-size:4rem;
+    font-weight: 400;
 }
 
 .texto-hero-3 {
@@ -435,7 +429,7 @@ section {
 
 .texto-hero-3:hover {
     color:white;
-    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(119, 0, 202), 0 0 5px rgb(201, 150, 255);
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(187, 187, 187), 0 0 5px rgb(250, 245, 255);
 }
 
 .contactame-box {
@@ -456,17 +450,17 @@ section {
 
 .texto-contacto-1:hover {
     color:white;
-    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(119, 0, 202), 0 0 5px rgb(201, 150, 255);
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(225, 182, 255), 0 0 5px rgb(201, 150, 255);
 }
 
 .texto-contacto-2:hover {
     color:white;
-    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(119, 0, 202), 0 0 5px rgb(201, 150, 255);
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(229, 193, 255), 0 0 5px rgb(201, 150, 255);
 }
 
 .texto-contacto-3:hover {
     color:white;
-    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(119, 0, 202), 0 0 5px rgb(201, 150, 255);
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(223, 179, 255), 0 0 5px rgb(201, 150, 255);
 }
 
 
@@ -479,7 +473,7 @@ section {
 
 .icons:hover {
     color:white;
-    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(119, 0, 202), 0 0 5px rgb(201, 150, 255);
+    text-shadow: 1px 1px 2px rgb(253, 251, 251), 0 0 25px rgb(224, 180, 255), 0 0 5px rgb(201, 150, 255);
 }
 
  /* termina hero */
