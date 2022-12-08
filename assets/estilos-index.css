@@ -360,7 +360,7 @@ section {
 .foto-hero-1 {
     width: 25rem;
     height:25rem;
-    border-radius: 30%;
+    border-radius: 10%;
     margin: 2rem;
     box-shadow: 0 0px 50px 0 rgb(114, 102, 104), 0 0px 50px 0 rgb(58, 57, 57);
 }
